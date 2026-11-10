@@ -31,10 +31,9 @@ Sell from your own Tebex store, grant free licences, or sell perks to the player
 
 | Repository | |
 |---|---|
-| `scriptgo` | The platform: API, website, worker |
-| `scriptgo-sdk` | The SDK: runtime, adapters, CLI, protected-release loader, guides |
-
-Both are private while SCRIPT//GO is in development. The SDK will open once its licence is chosen.
+| [`scriptgo-sdk`](https://github.com/scriptgo-hq/scriptgo-sdk) | **The SDK, open source (MIT).** Portable Lua core, one adapter per platform, the `scriptgo` CLI, the protected-release loader, the `@scriptgo/*` packages and the docs. Use it, change it, and sell what you build with it. |
+| `scriptgo-api` | The platform: API, licensing, payments (private) |
+| `scriptgo-web` | [scriptgo.dev](https://scriptgo.dev), the website (private) |
 
 ### Status
 
