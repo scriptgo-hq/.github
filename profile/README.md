@@ -22,20 +22,30 @@ Server code encrypted at rest, a key released per server, revocation, and tracea
 <td width="33%" valign="top">
 <img src="scene-stall.jpg" alt="" width="100%"><br>
 <b>License or sell it</b><br>
-Sell from your own Tebex store, grant free licences, or sell perks to the players of your servers.
+Sell scripts and assets such as maps from your own Tebex store, grant free licences, or sell perks to the players of your servers.
 </td>
 </tr>
 </table>
+
+### Get started
+
+```bash
+npm install -g @scriptgo/cli
+scriptgo init my_script
+```
+
+The docs: [scriptgo.dev/docs](https://scriptgo.dev/docs). The CLI on npm:
+[`@scriptgo/cli`](https://www.npmjs.com/package/@scriptgo/cli).
 
 ### Repositories
 
 | Repository | |
 |---|---|
-| [`scriptgo-sdk`](https://github.com/scriptgo-hq/scriptgo-sdk) | **The SDK, open source (MIT).** Portable Lua core, one adapter per platform, the `scriptgo` CLI, the protected-release loader, the `@scriptgo/*` packages and the docs. Use it, change it, and sell what you build with it. |
+| [`scriptgo-sdk`](https://github.com/scriptgo-hq/scriptgo-sdk) | **The SDK, open source (MIT).** Portable Lua core, one adapter per platform, the `scriptgo` CLI, the protected-release loader, the `@scriptgo/*` packages, the specs and the docs. Use it, change it, and sell what you build with it. |
+| [`scriptgo-web`](https://github.com/scriptgo-hq/scriptgo-web) | [scriptgo.dev](https://scriptgo.dev), the website (public source, proprietary licence) |
 | `scriptgo-api` | The platform: API, licensing, payments (private) |
-| `scriptgo-web` | [scriptgo.dev](https://scriptgo.dev), the website (private) |
 
 ### Status
 
-In development, private beta not started. Game, engine and provider names are trademarks of their
-owners; no endorsement is implied.
+Live at [scriptgo.dev](https://scriptgo.dev). Payments through Tebex open once Tebex approves them.
+Game, engine and provider names are trademarks of their owners; no endorsement is implied.
